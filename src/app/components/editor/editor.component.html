@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col">
+    <ace [config]="config" [mode]="'javascript'" [theme]="'dracula'" (valueChange)="value = $event"></ace>
+  </div>
+  <div class="col">
+    <code class="preview">{{value}}</code>
+  </div>
+</div>

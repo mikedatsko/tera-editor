@@ -1,0 +1,23 @@
+:host {
+  ace {
+    height: calc(100vh - 50px);
+  }
+
+  .row {
+    margin: 0;
+
+    .col {
+      padding: 0;
+    }
+  }
+
+  .preview {
+    white-space: pre-wrap;
+    background: #333;
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: aqua;
+    padding: 10px;
+  }
+}
